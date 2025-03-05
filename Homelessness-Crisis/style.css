@@ -1,0 +1,278 @@
+/* STYLE SECTIONING TAGS */
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+   main {
+     background: linear-gradient(45deg,#00CCCC, #1FFFFF, #85FFFF,#99FFFF, #E0FFFF );
+     color: #000085;
+     
+     padding-top: 1em;
+     padding-bottom: 100%;
+ 
+     margin-right: 0%;
+     margin-left: 0%;
+     
+     
+     
+   }
+ 
+   header {
+     background: linear-gradient(45deg,#00CCCC, #1FFFFF, #85FFFF,#99FFFF, #E0FFFF );
+     color:#000085;
+     text-align: center; 
+ 
+     border: 100px #000085;
+     border-radius: 0%;
+ 
+     padding-top: 0%;
+     padding-bottom: 0%;
+     
+ 
+ 
+   }
+   
+   body {
+     background: linear-gradient(45deg,#00CCCC, #1FFFFF, #85FFFF,#99FFFF, #E0FFFF);
+     color: navy; 
+ 
+     margin-bottom: 100%;
+ 
+     padding-top: 0%;
+     padding-bottom: 100%;
+   }
+ 
+ /* STYLE TEXT */
+   h1 {
+     color:#000085;
+     font-family: 'Anton', sans-serif;
+     font-size: 40px;
+ 
+     padding-top: 1em;
+     padding-bottom: 6px;
+   }
+ 
+  h2 {
+    color:#000085;
+     font-family: 'Anton', sans-serif;
+     font-size: 30px;
+ 
+     padding-top: 15px;
+     padding-bottom: 10px;
+ 
+    margin-right: 3%;
+    margin-left: 1%;
+   }
+   h3 {
+     color: #000085;
+     font-size: 24px;
+     font-family: 'Anton', sans-serif;
+ 
+    padding-top: 15px;
+    padding-bottom: 15px;
+ 
+    margin-right: 3%;
+    margin-left: 1.5%;
+     
+   }
+   p {
+    text-align: left; 
+    color: #000085;
+    font-size: 24px; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+ 
+    padding-top: 10px;
+    padding-bottom: 0%;
+ 
+    margin-right: 5%;
+    margin-left: 2%;
+ }
+   .subtitle{
+    text-align: center;
+    color: navy; 
+ }
+ .attribution{
+  text-align: center;
+  font-size: 18px; 
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+ 
+  padding-top: 0%;
+  padding-bottom: 0%;
+ 
+ }
+ #fact{
+   font-size: 30px; 
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+ }
+ 
+ 
+ 
+ 
+ .factIntructions{
+   text-align: center;
+ }
+ 
+ li{
+   font-size: 22px; 
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+ 
+   padding-top: 10px;
+   padding-bottom: 0%;
+ 
+   margin-right: 8%;
+   margin-left: 5%;
+ }
+ 
+ /* STYLE IMAGES */
+  .home-page-images {
+    display: block;
+ 
+    width: 100%;
+    max-height: 250px;
+ 
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    border-style: solid;
+    border-color: navy;
+    border-width: 6px;
+    border-radius: 5px;
+   }
+ 
+   #H-pic {
+    display: block;
+    width: 50%;
+    height: auto;
+ 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%; 
+ 
+    border-style: solid;
+    border-color: navy;
+    border-width: 8px;
+    border-radius: 5px;
+ 
+    
+ 
+   }
+ 
+ /* STYLE NAV BAR */
+ .flex-container {
+   padding: 16px;
+ 
+   background-color: navy;
+ 
+   display: flex; 
+ 
+   flex-direction: row;
+   flex-wrap: nonwrap;
+ }
+ 
+ .flex-items {
+   flex-basis: 100%;
+ 
+   text-align: center;
+   color: black;
+ }
+ 
+ .flex-items a:hover{
+   background-color: black;
+ }
+ 
+ .flex-items a {    /* Style hyperlink text in nav bar */
+   color: white;
+   font-size: 24px;
+ }
+ 
+ .flex-containerr{
+ 
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+ 
+ }
+ 
+ .flex-itemm{
+ 
+ flex-basis: 100%;
+ margin: 1%;
+ }
+ 
+ /* STYLE BUTTONS */
+ button{
+   background-color: navy;
+   color: white;
+ 
+   height: 50px;
+   width: 100px;
+ 
+   border-radius: 10%;
+ 
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   font-size: 18px; 
+ 
+   margin-top: 15px;
+ 
+ }
+ 
+ 
+ /* CHANGE CSS BASED ON SCREEN SIZE */
+ /* Breakpoint 1 */
+ @media screen and (max-width: 850px){
+ 
+   .flex-containerr{
+     flex-wrap: wrap;
+   }
+ 
+  main {
+     background: linear-gradient(45deg,#00CCCC, #1FFFFF, #85FFFF,#99FFFF, #E0FFFF );
+     color: #000085;
+     margin-left: 2%;
+     margin-right: 5%;
+   }
+ 
+   header {
+     background: linear-gradient(45deg,#00CCCC, #1FFFFF, #85FFFF,#99FFFF, #E0FFFF );
+     color:#000085;
+     padding-left: 20%;
+     padding-right: 20%;
+   }
+ 
+ }
+ /*STYLE GENERATE A FACT KEY FEATURE*/
+ .genFact{
+   background: #C378F2;
+   border-radius: 10px;
+   border-style: soild;
+ 
+   padding: 15px;
+ 
+   margin-top: 30px;
+   margin-left: 35%;
+   margin-right: 35%;
+ 
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   font-size: 20px; 
+   text-align: center;
+   line-height: 1.2em;
+   color: white;
+   
+ }
+ 
+ #fact{
+   border-style: none;
+ 
+   padding:15px;
+   
+   margin-top: 15px;
+   margin-left: 15%;
+   margin-right: 15%;
+ 
+   font-family:'Yanone Kaffeesatz', sans-serif;
+   font-size: 20px;
+   text-align: center;
+   line-height: 1.2em;
+   color: navy;
+ }
